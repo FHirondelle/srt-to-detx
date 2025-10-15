@@ -1,4 +1,4 @@
-HEADER = "header.txt"
+HEADER = "srt-to-detx/fichiers/header.txt"
 
 def parse(srt):
 
@@ -34,10 +34,12 @@ def parse(srt):
 
 def timecode_convert(time):
 
+    convert_im = [str(i) if i >= 10 else "0"+str(i) for i in range(25)]
+
     h_debut = int(time[:2])
     ms_debut = int(time[9:12])
 
-    h_fin = int(time[-12:-10])
+    h_fin = int(time[17:19])
     ms_fin = int(time[26:])
 
     h_debut += 1
@@ -45,8 +47,8 @@ def timecode_convert(time):
     im_debut = ms_debut // 40
     im_fin = ms_fin // 40
 
-    time_debut_detx = "0" + str(h_debut) + time[2:8] + ":" + str(im_debut)
-    time_fin_detx = "0" + str(h_fin) + time[-10:-4] + ":" + str(im_fin)
+    time_debut_detx = "0" + str(h_debut) + time[2:8] + ":" + convert_im[im_debut]
+    time_fin_detx = "0" + str(h_fin) + time[19:25] + ":" + convert_im[im_fin]
 
     return time_debut_detx, time_fin_detx
 

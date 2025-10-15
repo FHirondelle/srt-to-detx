@@ -1,7 +1,8 @@
 from br_fonctions import *
+import tkinter as tk
 
-srtfile = "test.srt"
-detxfile = "test.detx"
+srtfile = "srt-to-detx/fichiers/test.srt"
+detxfile = "srt-to-detx/fichiers/test.detx"
 
 srt = open(srtfile)
 detx = open(detxfile, 'w')

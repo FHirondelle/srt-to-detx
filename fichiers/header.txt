@@ -8,7 +8,7 @@
   </header>
 
   <roles>
-    <role color="#FFFFFF" description="" id="default" name="ParDéfaut"/>
+    <role color="#000000" description="" id="default" name="ParDéfaut"/>
   </roles>
 
   <body>
