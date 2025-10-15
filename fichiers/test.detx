@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<detx copyright="Chinkel S.A., 2007-2024">
+
+  <header>
+    <cappella version="3.7.0"/>
+    <videofile timestamp="01:00:00:00">C:\Users\videofile_path</videofile>
+    <last_position timecode="01:00:00:00" track="0"/>
+  </header>
+
+  <roles>
+    <role color="#FFFFFF" description="" id="default" name="ParDéfaut"/>
+  </roles>
+
+  <body>		<line role="default" track="0">
+			<lipsync timecode="01:00:02:3" type="in_open"/>
+			<text>[Wade] You do realize this camp  was closed down,</text>
+			<lipsync timecode="010:00:0:1" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:03:18" type="in_open"/>
+			<text>like, twenty years ago?</text>
+			<lipsync timecode="010:00:0:2" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:05:0" type="in_open"/>
+			<text>But I'm pretty sure  the way the story goes,</text>
+			<lipsync timecode="010:00:0:1" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:06:12" type="in_open"/>
+			<text>some woman, she went nuts.  Killed all these counselors.</text>
+			<lipsync timecode="010:00:0:0" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:09:11" type="in_open"/>
+			<text>Blamed them  for her son's drowning.</text>
+			<lipsync timecode="010:00:1:1" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:13:6" type="in_open"/>
+			<text>The place was called  Camp Crystal Lake.</text>
+			<lipsync timecode="010:00:1:0" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:17:7" type="in_open"/>
+			<text>Jason...</text>
+			<lipsync timecode="010:00:1:1" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:23:16" type="in_open"/>
+			<text>...he came back.</text>
+			<lipsync timecode="010:00:2:2" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:25:24" type="in_open"/>
+			<text>My sister, she came camping up  around here with some friends.</text>
+			<lipsync timecode="010:00:2:0" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:29:5" type="in_open"/>
+			<text>She's gone missing.</text>
+			<lipsync timecode="010:00:3:0" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:30:12" type="in_open"/>
+			<text>[Gasps]</text>
+			<lipsync timecode="010:00:3:0" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:31:7" type="in_open"/>
+			<text>She ain't missing. She's dead.</text>
+			<lipsync timecode="010:00:3:1" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:32:17" type="in_open"/>
+			<text>People go missing around here,  they're gone for good.</text>
+			<lipsync timecode="010:00:3:1" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:35:19" type="in_open"/>
+			<text>No! No, no, no!  Argh!</text>
+			<lipsync timecode="010:00:3:1" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:41:12" type="in_open"/>
+			<text>Here it is.  Make yourselves at home.</text>
+			<lipsync timecode="010:00:4:1" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:44:16" type="in_open"/>
+			<text>Mi casa es su casa.</text>
+			<lipsync timecode="010:00:4:1" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:50:14" type="in_open"/>
+			<text>[Bracke] You know  how many thousands of people</text>
+			<lipsync timecode="010:00:5:2" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:52:2" type="in_open"/>
+			<text>disappear every year?</text>
+			<lipsync timecode="010:00:5:1" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:56:3" type="in_open"/>
+			<text>There's no evidence.</text>
+			<lipsync timecode="010:00:5:1" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:00:59:7" type="in_open"/>
+			<text>No car, no witnesses.</text>
+			<lipsync timecode="010:01:0:0" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:01:04:12" type="in_open"/>
+			<text>- Alright, you ready?  - Ready. Let's do it.</text>
+			<lipsync timecode="010:01:0:0" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:01:07:6" type="in_open"/>
+			<text>[Chewie] This is a man's sport.</text>
+			<lipsync timecode="010:01:0:0" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:01:09:22" type="in_open"/>
+			<text>Nolan!</text>
+			<lipsync timecode="010:01:1:0" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:01:11:8" type="in_open"/>
+			<text>[Jenna] There's a guy out there  carrying a dead body.</text>
+			<lipsync timecode="010:01:1:0" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:01:13:10" type="in_open"/>
+			<text>[Woman] They bring trouble.  We just wanna be left alone.</text>
+			<lipsync timecode="010:01:1:0" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:01:17:2" type="in_open"/>
+			<text>And so does he.</text>
+			<lipsync timecode="010:01:1:1" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:01:21:13" type="in_open"/>
+			<text>So does who?</text>
+			<lipsync timecode="010:01:2:1" type="out_open"/>
+		</line>
+		<line role="default" track="0">
+			<lipsync timecode="01:01:28:3" type="in_open"/>
+			<text>Richie, stop fucking around.</text>
+			<lipsync timecode="010:01:2:1" type="out_open"/>
+		</line>
+	</body>
+
+</detx>
