@@ -2,10 +2,7 @@ HEADER = "srt-to-detx/fichiers/header.txt"
 
 def traitement(srtfile):
     
-    detxfile = f"{srtfile[:-3]}.detx"
-
     srt = open(srtfile)
-    detx = open(detxfile, 'w')
 
     srt_parse = parse(srt)
 
@@ -17,11 +14,12 @@ def traitement(srtfile):
         br_text += format_line(time_deb, time_fin, line)
 
     br_text += """\t</body>\n\n</detx>"""
-
-    detx.write(br_text)
+    print(br_text)
 
     srt.close()
-    detx.close()
+
+    return br_text
+
 
 
 def parse(srt):
