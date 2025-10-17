@@ -1,24 +1,12 @@
 from br_fonctions import *
 import tkinter as tk
+from tkinter import ttk
 
-srtfile = "srt-to-detx/fichiers/test.srt"
-detxfile = "srt-to-detx/fichiers/test.detx"
+root = tk.Tk()
+root.title("Convertisseur .srt en .detx")
 
-srt = open(srtfile)
-detx = open(detxfile, 'w')
+frame = ttk.Frame(root, width=800, height=500)
+frame.grid()
 
-srt_parse = parse(srt)
 
-with open(HEADER) as head:
-    br_text = head.read()
-
-for time, line in srt_parse:
-    time_deb, time_fin = timecode_convert(time)
-    br_text += format_line(time_deb, time_fin, line)
-
-br_text += """\t</body>\n\n</detx>"""
-
-detx.write(br_text)
-
-srt.close()
-detx.close()
+root.mainloop()
